@@ -1,4 +1,4 @@
-# GENG5551-Akida-Chip
+# Akida-Research-Project
 
 ## Getting Started
 
