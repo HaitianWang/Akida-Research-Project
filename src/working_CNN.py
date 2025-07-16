@@ -321,9 +321,6 @@ model_keras = Model(inputs, x, name='akidanet_derma')
 
 model_keras.summary()
 
-
-
-# model = sanitize(model)
 model_keras.compile(Adam(learning_rate=0.0001), loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True), metrics=['accuracy'])
 
 print(x_train_smote.shape, y_train_smote.shape)
