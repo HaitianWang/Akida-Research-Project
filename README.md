@@ -86,6 +86,7 @@ The model is trained on traditional GPUs and then ported to SNN via Akida tools.
 ### Datasets
 
 The HAM10000 dataset is a collection of dermascopic images of common pigmented skin lesions used for training of neural networks for automated diagnosis. It comprises of 10,015 dermatoscopic images sourced from various populations and captured through diverse modalities. It encompasses a comprehensive spectrum of diagnostic categories critical to the study of pigmented lesions. These categories include Actinic keratoses and intraepithelial carcinoma/Bowen's disease (akiec), basal cell carcinoma (bcc), benign keratosis-like lesions (comprising solar lentigines, seborrheic keratoses, and lichen-planus like keratoses, bkl), dermatofibroma (df), melanoma (mel), melanocytic nevi (nv), and vascular lesions (such as angiomas, angiokeratomas, pyogenic granulomas, and hemorrhage, vasc). This dataset is tailored to aid in the training and development of machine learning models in the field of dermatology.
+
 ---
 
 ### CNN&SNN model Results on HAM10000  
