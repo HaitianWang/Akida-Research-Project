@@ -11,11 +11,11 @@ We propose an end-to-end pipeline for energy-efficient and privacy-preserving Sk
 3. [Model Setup](#model-setup)
 4. [Experiments](#experiments)
     - [Dataset Description](#datasets)
-    - [Results on HAM10000](#results-on-ham10000)
+    - [CNN&SNN model Results on HAM10000](#cnn&snn-model-results-on-ham10000)
     - [Comparison with SNN Baselines](#snn-comparison)
-    - [Inference Latency & Energy](#latency-energy)
+    - [Latency and Energy Efficiency](#latency-and-energy-efficiency)
     - [Ablation Study](#ablation-study)
-    - [Generalization on Clinical Dataset](#clinical-generalization)
+    - [Generalization on Clinical Dataset](#generalization-on-clinical-dataset)
 5. [Main Contributors](#main-contributors)
 
 ---
@@ -72,13 +72,7 @@ The model is trained on traditional GPUs and then ported to SNN via Akida tools.
    ```
    python working_CNN.py
    ```
-
-### Run edge_training.ipynb
-
-1. Run Akida conda environment 
-2. Modify necessary hyperparameters (num_neurons, num_weights, learning_competition)
-3. Run notebook
-
+   
 ---
 
 ## Experiments
@@ -90,7 +84,6 @@ The HAM10000 dataset is a collection of dermascopic images of common pigmented s
 ---
 
 ### CNN&SNN model Results on HAM10000  
-(**Section IV.C**: Per-class metrics)
 
 ![CNN&SNN confusion matrix](./docs/Figures/model_result.png)
 
@@ -99,7 +92,6 @@ The HAM10000 dataset is a collection of dermascopic images of common pigmented s
 ---
 
 ### Comparison with Other Converted SNNs  
-(**Section IV.D**)
 
 ![model comparasion](./docs/Figures/models_comparasion.png)
 
@@ -108,7 +100,6 @@ The HAM10000 dataset is a collection of dermascopic images of common pigmented s
 ---
 
 ### Latency and Energy Efficiency  
-(**Section IV.E**)
 
 ![Latency and Energy Efficiency](./docs/Figures/Latency_and_Energy_Efficiency.png)
 
@@ -117,7 +108,6 @@ The HAM10000 dataset is a collection of dermascopic images of common pigmented s
 ---
 
 ### Ablation Study  
-(**Section IV.F**)
 
 ![Ablation Study](./docs/Figures/ablation_study.png)
 
@@ -126,7 +116,6 @@ The HAM10000 dataset is a collection of dermascopic images of common pigmented s
 ---
 
 ### Generalization on Clinical Dataset  
-(**Section IV.G**)
 
 ![Clinical Dataset](./docs/Figures/Clinical_Dataset.png)
 
