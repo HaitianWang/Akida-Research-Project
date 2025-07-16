@@ -30,7 +30,7 @@ Skin cancer classification is a critical step in dermatological diagnosis. Tradi
 
 To overcome these, we design a quantization-aware CNN using Ghost, ECA, and SE modules that seamlessly converts into an SNN optimized for BrainChip Akida neuromorphic chips.
 
-![Overview Diagram](./docs/Figures/pipeline.png)
+![Overview Diagram](./docs/Figures/pipeline.jpg)
 
 ---
 
