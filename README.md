@@ -121,17 +121,6 @@ The HAM10000 dataset is a collection of dermascopic images of common pigmented s
 
 > **Explanation:** On real-world hospital data from Nanjing Drum Tower Hospital, our model outperforms other methods, confirming generalization to clinical cases beyond benchmarks.
 
----
-
-
-## Main Contributors
-
-This work was conducted by a research team from the University of Western Australia (UWA).
-
-### Lead Contributors
-- **Haitian Wang** – 
-- **Xinyu Wang** - 
-- **Yiren Wang** – Design and led the implementation of the CNN model pipeline. Conducted the model training and testing. Finalize the evaluation and result visualization.
 
 ---
 
